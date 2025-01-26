@@ -13,9 +13,7 @@ O GitBash executa os mesmos comandos do terminal do Linux, portando, se estiver 
 - Ter o Git instalado
 - Ter o Visual Studio Code (VS Code) instalado
 
-## Criando um container Docker com Linux Ubuntu versão 22.04
-
-###  Alternativa 1 - Criando o container apenas com a imagem Linux Ubuntu
+##  Alternativa 1 - Criando o container apenas com a imagem Linux Ubuntu
 
 Iremos criar um container Docker com uma imagem do Linux Ubuntu 22.04 utilizando apenas o `docker-compose.yml`. Nesse caso, será necessário fazer as instalações de pacotes, como o Node.js diretamente no `bash` do container.
 
@@ -163,7 +161,7 @@ Também pode ser informado o `NOME` do container, que consta na coluna `NAMES`. 
 docker start ubuntu-container
 ```
 
-## Instalando o Node.js no container através do `bash`
+### Instalando o Node.js no container através do `bash`
 
 Acesse o bash do container:
 
@@ -197,7 +195,7 @@ node -v
 npm -v
 ```
 
-### Alternativa 2 - Utilizando o Dockerfile para criar uma imagem personalizada com o Linux Ubuntu e o Node.js instalado
+## Alternativa 2 - Utilizando o Dockerfile para criar uma imagem personalizada com o Linux Ubuntu e o Node.js instalado
 
 Iremos criar um container Docker com uma imagem do Linux Ubuntu 22.04 utilizando `docker-compose.yml` junto com o `Dockerfile`. No `Dockerfile` iremos adicionar os comandos para já instalar o Node.js.
 
