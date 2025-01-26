@@ -1,0 +1,11 @@
+services:
+  ubuntu:
+    build:
+      context: .  # Usando o diretório atual onde está o Dockerfile
+    container_name: ubuntu-container
+    volumes:
+      - ./apps:/apps
+    stdin_open: true
+    tty: true
+    ports:
+      - "3000:3000"  # Mapeando a porta 3000 do container para a porta 3000 na máquina host
