@@ -2,6 +2,24 @@
 
 Este repositório contém um projeto que ensina como configurar um ambiente de desenvolvimento para Node.js usando **Docker**. A aplicação "Hello World" é criada e executada dentro de um container Docker, e o tutorial completo para configurar o ambiente e desenvolver a aplicação está disponível no arquivo **Tutorial-Aprendendo-Nodejs-com-Docker.md**.
 
+## 🛠️ Requisitos
+
+Antes de começar, você precisa garantir que possui os seguintes requisitos:
+
+- **Docker Desktop** para **Windows** (Windows 10 ou superior)
+- **Docker Engine** para **Linux** ou **MacOS**
+
+Você pode baixar e instalar o Docker para a sua plataforma acessando https://www.docker.com/get-started.
+
+Após a instalação, certifique-se de que o Docker está rodando em seu sistema. Você pode verificar isso executando:
+
+```bash
+docker --version
+docker-compose --version
+```
+
+Esses comandos devem retornar a versão do Docker e do Docker Compose.
+
 ## 🛠️ Como Executar o Projeto
 
 Para rodar o projeto em seu ambiente local, siga os passos abaixo.
